@@ -1,6 +1,6 @@
 # Vendor Form Details
 
-This project is a subsection of a form designed to take vendor details as input. It was developed as an assignment for a company. The form includes sections to capture various details about the vendor, including business details, location, and account information. The project is built using Next.js and TailwindCSS.
+This project is a subsection of a form designed to take vendor details as input, developed as an assignment for a finifi.io. The form includes sections to capture various details about the vendor, including business details, location, and account information. The project is built using Next.js and TailwindCSS.
 
 ## Table of Contents
 - [Features](#features)
