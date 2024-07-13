@@ -37,10 +37,10 @@ const AccountDetailsCard = ({handleAddAttachment}) => {
             required    
           >
             <option value="">Select Bank</option>
-            {/* Replace with actual bank options */}
+            {/*to be replaced with actual bank options */}
             <option value="State Bank of India">State Bank of India</option>
             <option value="ICICI Bank">ICICI Bank</option>
-            {/* Add more banks as needed */}
+            {/* banks list to be provided */}
           </select>
         </div>
         <div className="col-span-4 md:col-span-1">

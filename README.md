@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Vendor Form Details
 
-## Getting Started
+This project is a subsection of a form designed to take vendor details as input. It was developed as an assignment for a company. The form includes sections to capture various details about the vendor, including business details, location, and account information. The project is built using Next.js and TailwindCSS.
 
-First, run the development server:
+## Table of Contents
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Assumptions](#assumptions)
+- [License](#license)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
+- Capture Vendor Form Details
+- Capture Business Details
+- Vendor ID, Legal Name, Trade Name
+- Vendor State and Location
+- GST Registration and Certificate Upload
+- PAN Number and Attachment Upload
+- Payment Terms Policy
+- MSME Details
+- LDC Upper Limit and Date Range
+- Additional Location for Supply
+- POC (Point of Contact) Details
+- Account Details including Bank, Account Name, Account Number
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
+- Next.js
+- React
+- TailwindCSS
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/vendor-form-details.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd vendor-form-details
+    ```
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Usage
+1. Start the development server:
+    ```bash
+    npm run dev
+    ```
+2. Open your browser and navigate to `http://localhost:3000` to view the vendor form details page.
 
-## Learn More
+## Assumptions
+- The list of states and their respective cities,banks,Policy will be provided.
+- The following sections and fields are included in the form:
+  - Vendor Form Details
+    - Vendor ID
+    - Legal Name*
+    - Trade Name*
+    - Vendor State*
+    - Vendor Location*
+  - Business Details
+    - GST Registered
+    - GST Certificate*
+    - Payment Terms
+    - PAN Attachment*
+    - Policy*
+  - MSME Details
+    - MSME Registered
+    - Lower Exception
+    - LDC Upper Limit
+    - LDC Start Date*
+    - LDC End Date*
+    - PAN Number
+  - Additional Location for Supply
+    - State*
+    - Location
+    - Location GSTIn
+    - Location GSTIn Certificate*
+  - POC Details
+    - POC Name*
+    - POC Designation*
+    - POC Email ID*
+    - POC Mobile Number*
+    - Address*
+  - Account Details
+    - Select Bank*
+    - Account Name
+    - Account Number
+    - Confirm Account Number
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+This project is licensed under the MIT License.

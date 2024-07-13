@@ -31,10 +31,10 @@ const AdditionalLocationCard = () => {
             required    
           >
             <option value="">Select State</option>
-            {/* Replace with actual state options */}
+            {/* to be replaced with actual state options */}
             <option value="Maharashtra">Maharashtra</option>
             <option value="Gujarat">Gujarat</option>
-            {/* Add more states as needed */}
+            {/*  more states  */}
           </select>
         </div>
         <div className="col-span-4 md:col-span-1">

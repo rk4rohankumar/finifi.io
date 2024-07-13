@@ -13,7 +13,6 @@ const BusinessDetailCard = ({handleAddAttachment}) => {
   const toggleGstRegistered = () => {
     setIsGstRegistered((prev) => !prev);
   };
-//   const [file, setFile] = useState(null);
 
   const handleGSTCertificateChange = (e) => {
     const file = e.target.files[0];
@@ -45,7 +44,7 @@ const BusinessDetailCard = ({handleAddAttachment}) => {
 
   const handleStateChange = (e) => {
     setSelectedState(e.target.value);
-    // Reset city selection when state changes
+    // to reset city selection when state changes
     setSelectedCity('');
   };
 
@@ -109,10 +108,10 @@ const BusinessDetailCard = ({handleAddAttachment}) => {
             required    
           >
             <option value="">Select State</option>
-            {/* Replace with actual state options */}
+            {/*to be replaced with actual state options from list*/}
             <option value="Maharashtra">Maharashtra</option>
             <option value="Gujarat">Gujarat</option>
-            {/* Add more states as needed */}
+            {/*  more states to be added */}
           </select>
         </div>
         <div>
@@ -128,7 +127,7 @@ const BusinessDetailCard = ({handleAddAttachment}) => {
             required    
           >
             <option value="">Select City</option>
-            {/* Replace with actual city options based on selectedState */}
+            {/* to replace with actual city options based on selectedState */}
             {selectedState === 'Maharashtra' && (
               <>
                 <option value="Mumbai">Mumbai</option>
@@ -141,7 +140,7 @@ const BusinessDetailCard = ({handleAddAttachment}) => {
                 <option value="Surat">Surat</option>
               </>
             )}
-            {/* Add more cities as needed */}
+            {/* cities list to be provided */}
           </select>
         </div>
         {/* Layer 2 */}
@@ -223,10 +222,10 @@ const BusinessDetailCard = ({handleAddAttachment}) => {
             required    
           >
             <option value="">Select Policy</option>
-            {/* Replace with actual policy options */}
+            {/* to be replace with actual policy options */}
             <option value="Policy 1">Policy 1</option>
             <option value="Policy 2">Policy 2</option>
-            {/* Add more policies as needed */}
+            {/*  more policies  */}
           </select>
         </div>
         <div className="col-span-5">

@@ -66,8 +66,6 @@ const MainContent = () => {
           )}
         </div>
       </div>
-          {/* {console.log("recieved",attachments)} */}
-          {/* {console.log(attachments[0].name)} */}
       {/* Second Container */}
       <div className="p-4 border-l text-black border-gray-200 h-screen md:min-w-64 overflow-y-auto">
         <div className="bg-white p-4 rounded shadow">
